@@ -4,12 +4,12 @@ server:
 # 阿里云oss配置
 aliyun:
   oss:
-    endpoint: oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI5tEYRnb3Y5aKQ6GFGiWk
-    accessKeySecret: 6YVQmEzqrkpCjKaR9gduef0KTZGzUJ
-    bucketName: xjh-blog
+    endpoint: 
+    accessKeyId:
+    accessKeySecret: 
+    bucketName: 
     # 访问静态资源的完整域名  尾部不能有 /
-    fullDomain: https://xjh-blog.oss-cn-beijing.aliyuncs.com
+    fullDomain: https://桶名称.oss-cn-beijing.aliyuncs.com
     # 启用Nginx反向代理来访问静态资源
     useNginxProxy: true
     # 使用代理访问静态资源的标志 尾部不能有 /
