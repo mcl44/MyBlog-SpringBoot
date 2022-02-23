@@ -30,7 +30,7 @@ spring:
     # 阿里云服务器
     # url: jdbc:mysql://127.0.0.1:3306/my_blog?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=GMT%2B8
     # username: root
-    # password: 2292927675Xjh@
+    # password: 
 
   servlet:
     multipart:
@@ -51,7 +51,7 @@ spring:
 #    host: 127.0.0.1
 #    port: 6379
 #    database: 1
-#    password: 2292927675Xjh@
+#    password: 
     # 连接超时时间
     timeout: 5000
     lettuce:
